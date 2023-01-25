@@ -1,2 +1,2 @@
 # Resume
-Repo containing code snippets and other achievements of my career.
+Contains code snippets and other achievements of my career that I am proud of.
