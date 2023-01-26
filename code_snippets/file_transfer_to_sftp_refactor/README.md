@@ -9,7 +9,7 @@ These snippets are from a plugin of my first project that I worked on as a Junio
 This plugin could connect to a host, retrieve all the files and subdirectories, and provided UI elements to display the returned information and allow the user to navigate through the file system of the connected host.
 
 ## Files
-- file_transfer.tsx
+- file_transfer.tsx:
 	This was my first attempt at creating this plugin. I was still new to React and 
 	Typescript and had worked as a professional developer less than half a year. 
 	While thought it fulfilled all requirements expected of it, it was difficult to 
@@ -22,7 +22,7 @@ This plugin could connect to a host, retrieve all the files and subdirectories, 
 	I took the initiative to ask my employer, if I could refactor it to improve 
 	future development and the result is the sftp.tsx
 
-- sftp.tsx
+- sftp.tsx:
 	This is the improved version of the file_transfer.tsx, it only contains small 
 	snippets across a range of files/components, but the main focus of this 
 	demonstration is to show how I separated state and logic to make the code more decoupled and readable.
