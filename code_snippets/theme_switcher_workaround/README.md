@@ -8,8 +8,8 @@ I did this by inspecting how the UI library switch the CSS style sheets used. I 
 
 So I made a solution that would manually set the stylesheet in the `<head/>` tag, overriding the last theme stylesheet, and I used React lazy loading to ensure a smooth transition was made in-between these theme changes. 
 
-This solution was not perfect, but it effectively solved the problem without requiring to drastically change the whole application and can be easily removed once the package developers add their theme switching function again.
+This solution was not perfect, but it effectively solved the problem without requiring to drastically change the whole application and can be easily removed once the package developers reimplement their theme switching function again.
 
 ## Files
-- theme_provider.tsx
+- #### theme_provider.tsx
 	This component wraps around the entire app to provide the desired theme set by the user.
