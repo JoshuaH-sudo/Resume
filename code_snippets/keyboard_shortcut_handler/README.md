@@ -7,5 +7,5 @@ I was proud of how I managed the list of shortcuts, creating a record type betwe
 To make it easier to create a shortcut and its key combo, I created an enum of all the characters that could be used and how they appear in a keyboard event. This allowed to use a common naming scheme when creating the shortcut key combos.
 
 ## Files
-- keyboard_shortcut.ts 
+- keyboard_shortcut.ts:
 	The main file that holds the shortcut handler and the shortcut combos
