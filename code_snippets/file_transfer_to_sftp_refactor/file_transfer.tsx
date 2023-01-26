@@ -50,9 +50,13 @@
       search_query: ''
     };
 
-//The setup/mount and teardown/unmount handlers
+/**
+  * The setup/mount and teardown/unmount handlers
+  */
   componentWillUnmount(): void {
-    //In the later refactored version, the async/await syntax was used to handle promises.
+    /**
+      * In the later refactored version, the async/await syntax was used to handle promises.
+      */
     if (this.state.connection != null) SFTP.endConnection(this.state.connection).catch(() => null);
   }
   
@@ -73,7 +77,9 @@
  return (
   //...
   <>
-  //Section handled the navigation of the file system and was put into Table_navigation.tsx
+  /**
+    * Section handled the navigation of the file system and was put into Table_navigation.tsx
+    */
     <EuiButtonIcon
       size="xs"
       id="home"
@@ -106,7 +112,9 @@
       onChange={onReceivingFiles}
     />
     //...
-    //This table was moved into Dir_table.tsx
+    /**
+      * This table was moved into Dir_table.tsx
+      */
       <EuiInMemoryTable
         items={this.state.directoryView}
         rowHeader="type"
@@ -119,8 +127,10 @@
         onTableChange={this.onTableChange}
       />
   //...
-  //This rendered a floating popup menu that provided table actions. 
-  //It was later put into Context_menu.tsx that was then controlled by Dir_table.tsx
+  /**
+    * This rendered a floating popup menu that provided table actions. 
+    * It was later put into Context_menu.tsx that was then controlled by Dir_table.tsx
+    */
   <Fragment>
     {this.state.showMenu
       ? this.ContextMenu(
