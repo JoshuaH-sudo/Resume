@@ -1,5 +1,8 @@
 //// Old Version 
-//File_transfer.tsx
+
+//The massive state later becomes refactored into smaller chucks and 
+//is separated out to components that will manage states internally, 
+//while any common states will be put into a context that is shared to all components.
     this.state = {
       mouseX: 0,
       mouseY: 0,

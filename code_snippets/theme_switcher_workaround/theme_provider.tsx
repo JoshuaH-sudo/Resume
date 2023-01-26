@@ -1,4 +1,4 @@
-//dark.tsx
+//dark.tsx //light.tsx is the same but imports the light theme css style sheet.
   import React from 'react';
   import '@elastic/eui/dist/eui_theme_dark.css';
 
