@@ -8,4 +8,4 @@ The code I provide in this repo, is the best demonstration of my skills and the 
 ## Code Snippet Structure
 Each folder contains code snippets from various parts of projects that I have worked during my professional career as a developer. Each folder will contain some code snippets and a README file. Explaining why I have included them, what they were a part of, and the challenges involved in each of them.
 
-These snippets have been sanitized of any relation to the project they have been a part of, and I have been granted permission from my employer to showcase them in my resume.
+These snippets have been sanitized of any relation to their projects and I have been granted permission from my employer to showcase them in my resume.
