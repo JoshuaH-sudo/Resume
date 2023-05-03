@@ -9,3 +9,7 @@ The code I provide in this repo, is the best demonstration of my skills and the 
 Each folder contains code snippets from various projects that I have been apart of. Each folder will contain some code snippets and a README file. Explaining why I have included them, what they were a part of, and the challenges involved in each of them.
 
 These snippets have been sanitized of any relation to their projects and I have been granted permission to showcase them in my resume.
+
+# Current Projects
+- [Solita Dev Academy 2023 pre-assighment](https://github.com/JoshuaH-sudo/dev-academy-2023-exercise)
+- [Countdown React Native app](https://github.com/JoshuaH-sudo/countdown)
