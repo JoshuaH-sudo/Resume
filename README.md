@@ -11,5 +11,8 @@ Each folder contains code snippets from various projects that I have been apart 
 These snippets have been sanitized of any relation to their projects and I have been granted permission to showcase them in my resume.
 
 # Current Projects
-- [Solita Dev Academy 2023 pre-assighment](https://github.com/JoshuaH-sudo/dev-academy-2023-exercise)
 - [Countdown React Native app](https://github.com/JoshuaH-sudo/countdown)
+# Past Projects
+- [Solita Dev Academy 2023 pre-assighment](https://github.com/JoshuaH-sudo/dev-academy-2023-exercise)
+- [Smunch Technical Assighment](https://github.com/JoshuaH-sudo/Smunch_technical_assighment)
+- [Turfcoach Assighment](https://github.com/JoshuaH-sudo/turfcoach-assighment)
